@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript data type</title>
+</head>
+<body>
+     <div> 
+        <h1>currency converter</h1>
+        <select   id="pesos">
+        <option>naira to dollar</option>
+        <option>dollar to naira</option>
+        <option>Brazil Real to Rupees</option>
+        <option>Rupees to brazil Real</option>
+    </select><br>
+    <label>From NGN</label>
+    <input  type ="text"oninput="converter()" id="Naira and kobo"><br>
+    <label>To Dollar</label>
+    <input type="text" oninput="converter()" id="dollar">
+    <label>From BRL</label>
+    <input  type ="text"oninput="switchConverter()" id="BraizilReal"><br>
+    <label> To  Rupees</label>
+    <input type="text" oninput="switchConverter()" id="Rupees">
+    <select  id="shillings">
+        
+     </div> 
+     <div id="table"></div>
+    <script type="module">
+    import {sentence,name,age} from "./javascript2.js";
+    //import {name} from "javascript2";
+    //import {age}  from "..javascript2";
+    import anotherFunction from "./javascript2.js";
+    alert("name")
+    anotherFunction();
+    </script>
+
+
+</body>
+</html>

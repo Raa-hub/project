@@ -1,0 +1,71 @@
+.class1 .A{
+    background-color: blueviolet; 
+    font-size:50px;
+}
+ .B> p{
+    background-color: brown;
+     font: size 20px;
+ }
+.class+div p{
+    background-color: bisque;
+    width: 40%;
+    height:40%;
+}
+#div1~div{
+    background-color: beige;
+    width: 100px;
+    height: 50px
+}
+a:link{
+    font-size: larger;
+}
+#myidname::before{
+    content:"Paragraph";
+
+}
+.First{
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    padding:25px;
+}
+
+.First div{
+    background-color: bisque;
+    width: 200px;
+    height: 150px;
+    opacity: 0.2;
+}
+body{
+ /*   background-image: url(image.jpg)*/
+ /* background-image: linear-gradient (to bottom left red, yellow); */
+ background-image: repeating-linear-gradient(blue 10%,red 30%,black 15%);  
+}
+ 
+ body{
+ background-image: radial-gradient(circle red 10%,blue 20% ,green 15%) 
+}
+ 
+@keyframes animationName{
+    from { 
+        background-color: aqua;
+    }
+    to{
+        background-color: blue;
+    }
+}
+/* The element we want to apply animation*/
+.animation{
+    width: 200px;
+    height: 100px;
+    background:blue;
+    animation:animationName
+    animation-duration:30s;
+}
+ 
+
+    
+
+
+
+

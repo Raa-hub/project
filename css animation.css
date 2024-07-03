@@ -1,0 +1,27 @@
+@keyframes animationName{
+   
+    from {
+    background-color:blue;
+        color:grey;
+        font-size:100px;
+    }
+    to{
+        background-color: red;
+        color:white;
+        font: size 170px;
+    }
+
+}
+
+/* The element we want to apply animation*/
+.animation{
+    width: 200px;
+    height: 100px;
+    background:purple;
+    animation:animationName;
+    animation-duration:30s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: ease in 
+}

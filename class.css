@@ -1,0 +1,38 @@
+.thebox {
+    display: grid;
+    grid-template-columns: 100px 150px auto;
+    grid-template-rows: 100px 120px;
+    /*gap:20px;*/
+    /* row-gap: 15px;*/
+
+}
+.box1 {
+    background-color:blue;
+    border: 5px solid black;
+    /* color: blue; */
+
+}
+img{
+    height: 100px;
+    width: 120px;
+}
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: purple
+    }
+    img{
+        height: 100px;
+        width:70px
+
+    }
+}
+@media only screen and(max-width:608px){
+    body{
+        background-color: azure;
+
+    }
+    img{
+        height:110px
+        width: 200px;
+    }
+}
